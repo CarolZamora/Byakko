@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Hurricane&family=Pacifico&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Hurricane&family=Pacifico&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Hurricane&family=Pacifico&family=Poppins:wght@300;600&display=swap');
+html,body{
+   font-family: 'Poppins';
+   font-size: 15px;
+   line-height: 1.5;
+   box-sizing: border-box;
+   margin: 0;
+   overflow-x: hidden;
+   top:0;
+   left:0;
+}
+.nav-link{
+    text-decoration:none;
+    color:black;
+    font-weight: 500;
+    transition: all 0.4s linear;
+ 
+}
+a:hover{
+    color:rgb(127, 12, 180)
+}
+
+ul {
+    list-style-type: none;
+}
+.navbar{
+    background: white;
+    padding: 3 rem 2 rem;
+    height: 0rem ;
+    min-height: 12vh;
+}
+.navbar .navbar-brand a{
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+.navbar-brand{
+    font-family:'pacifico', cursive;
+    font-size: 2.5rem;
+    color: #2177d8;
+}
+.navbar-toggler {
+    background-color: #2177d8;
+    border: none;
+    padding:10px 6px ;
+    outline:none;
+}
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border:1px ;
+    background:black ;
+
+}
+.navbar-toggler span + span{
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 4px ;
+}
+.navbar-toggler span + span + span{
+    width: 10px;
+    margin-left: 10px;
+    }
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding:2rem 1.2rem;
+    font-size: 1.4rem;
+    position: relative;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    border-top: 4px solid #2177d8;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active{
+    border-top: 4px solid #2177d8;
+    color:#2177d8;
+}
+.navbar-nav button{
+    padding: 1.2rem 0;
+}
+.navbar-nav .btn{
+    background-color: #2177d8;
+    color: #fff;
+    border-radius: 0;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    margin-top: -10px;
+}
+.navbar-nav .btn:hover{
+    background-color: aqua;
+}
+/* Carrusel */
+
+
+h5 {
+    font-size: 2.5rem;
+    font-family:'Arvo',italic;
+    color:black;
+}
+
+/* targetas info */
+.row{
+    padding: 0px;
+    justify-content: center;
+    
+
+}
+.col{
+    margin: 15px;
+}
+.card-info{
+    justify-content: space-between;
+    margin: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.card-title{
+    color: #001bb4;
+    font-size: 2.0rem;
+}
+/* ventas */
+
+.section_subtitle h2 { 
+    font-size:2.5rem;
+    color: #001bb4;
+    font-family: 'Oswald', sans-serif;
+}
+
+.ventas__1{
+    width: 50px;
+    height: 50px;
+}
+
+
+/* documentos */
+.card-doc{
+    align-items: center;
+    justify-content: center;
+}
+.card-title-d{
+    font-size:1.0rem;
+    color: #001bb4;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+hr { 
+    border-top: 8px double #001bb4;
+    color:#fff;
+    size: 10px;
+}
+
+/* gaes */
+.perfiles{
+    padding: 80px 0;
+}
+.card-perfil{
+    box-shadow: 0 0 30px rgba(4, 8, 243, 0.584);
+    overflow: hidden;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.img1 img{
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+.img2 img{
+    position:relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px solid #262f63;
+    margin-top: -40%;
+}
+.card-perfil:hover .img1 .img2{
+    border-color: darkcyan;
+    transition: .7s;
+}
+.main-text{
+    padding: 30px,0;
+    text-align: center;
+}
+.main-text h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 20px;
+    color: #001bb4;
+}
+
+.main-text p{
+    font-size: 16px;
+    padding: 0 35;
+
+}
+.socials i{
+    font-size: 20px;
+    color:darkcyan;
+    padding: 0 10 px;;
+}

@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/style.css"/>
+    <title>Byakko System</title>
+ 
+    
+
+  </head>
+  <body>
+     <!-- Navbar -->
+     <header class="header">
+      <div class="container-fluid p-0 m-0  "> 
+      <div class="row-1">
+        <div class="col-12">
+      <nav class="navbar navbar-expand-lg  bg-light">
+        <div class="container-fluid ">
+          <a class="navbar-brand  " href="#">Byakko System</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ventas">Ventas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Inventario">Inventario</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Proveedores">Proveedores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Fidelizacion">Fidelizacion de clientes</a>
+              </li>
+              <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Documentacion
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Plantilla de formulacion del proyecto</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">IEEE 830n</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Modelado estructurado</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Diagramas</a></li>
+
+              </ul>
+            </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#Gaes 5">Gaes 5</a>
+              </li>
+            </ul>
+            <u class="navbar-nav ms-auto" >
+              <button class="btn">Login</button>
+            </u>
+          </div>
+        </div>
+      </nav>
+    </div>
+      </div>
+    </div>
+     </header>
+
+     <!-- aqui inicia el carrusel -->
+    <div class="container-fluid ">
+       <div class="row">
+         <div class="col 12">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/Banner1.jpg" class="d-block w-100 " alt="Productos1">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/Banner2.jpg" class="d-block w-100" alt="Productos2">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/Banner3.jpg" class="d-block w-100" alt="Productos3">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+                <div class="carousel-item">
+                  <img src="img/Banner4 .jpg" class="d-block w-100" alt="Productos4">
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+         </div>
+       </div>
+    </div>
+
+  <!-- targetas de informacion -->
+  <div class="container-fluid">
+    <div class="row">
+  <div class="card-info mb-3 " style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="iconos/compra.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Productos de calidad</h5>
+          <p class="card-text">Manejamos variedad de marcas de excelente calidad</p>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card-info mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="iconos/cajero.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Satisfaccion del cliente</h5>
+          <p>Su conformidad ante nustro servicio es sumamente importante</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="card-info mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="iconos/satisfaccion.png" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Buenos precios.</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+    </div>
+
+  </div>
+
+
+  <!-- Section modulo de ventas -->
+  <div class="container">
+    <section id="ventas">
+      <div class="row">
+        <hr class="estilo">
+        <div class="col text-center">
+        <div class="section_subtitle">
+        <h2>Ventas</h2></div></div>
+      </div>
+      <div class="row">
+        <div class="col">
+         <a tittle="ventas" href="https://www.exito.com"><img src="iconos/Ventas.png" width=400px   class="ventas_1"></a>
+        </div>
+        <div class="col ">
+          <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quis earum necessitatibus quod ratione, maxime itaque sit possimus, dolore culpa suscipit et distinctio expedita cumque ducimus aspernatur deserunt eligendi error?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint animi natus consequuntur reprehenderit iusto cupiditate ipsam delectus maiores beatae distinctio autem optio atque hic, mollitia unde alias eveniet doloremque veritatis.
+          </p>
+        </div>
+        <hr>
+        </div>
+      </div>
+    </section>
+<!-- Modulo inventario -->
+  <div class="container">
+    <section id="Inventario">
+      <div class="row">
+        <div class="col text-center">
+          <div class="section_subtitle">
+          <h2>Inventario</h2></div></div>
+        </div>
+        <div class="row">
+        <div class="col ">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quis earum necessitatibus quod ratione, maxime itaque sit possimus, dolore culpa suscipit et distinctio expedita cumque ducimus aspernatur deserunt eligendi error?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, perferendis praesentium assumenda quos ullam cumque minima adipisci repudiandae a? Aperiam reprehenderit sed necessitatibus vero nesciunt dolor eos eius ab corporis?
+          </p>
+        </div>
+          <div class="col ">
+            <img src="iconos/Inventario .png" width=400px  href="" class="Inventario_1">
+          </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Modulo proveedores -->
+  <div class="container">
+    <section id="Proveedores">
+      <div class="row">
+        <hr>
+        <div class="col text-center">
+         <div class="section_subtitle">
+        <h2>Proveedores</h2></div></div>
+      </div>
+      <div class="row">
+        <div class="col">
+         <a tittle="ventas" href="./ModuloProveedores/Proveedores.html" target="_blank"><img src="iconos/proveedores.png" width=400px   class="ventas_1"></a>
+        </div>
+        <div class="col ">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quis earum necessitatibus quod ratione, maxime itaque sit possimus, dolore culpa suscipit et distinctio expedita cumque ducimus aspernatur deserunt eligendi error?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime quasi quos nesciunt consectetur delectus alias asperiores esse sint, laboriosam vitae, suscipit, architecto nostrum commodi voluptas aliquam libero dolorem et?
+          </p>
+        </div>
+        <hr>
+        </div>
+      </div>
+    </section>
+    <!-- Fidelizacion de clientes-->
+  <div class="container">
+    <section id="Fidelizacion">
+      <div class="row">
+        <div class="col text-center">
+          <div class="section_subtitle">
+          <h2>Fidelizacion de clientes</h2></div></div>
+        </div>
+        <div class="row">
+        <div class="col ">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quis earum necessitatibus quod ratione, maxime itaque sit possimus, dolore culpa suscipit et distinctio expedita cumque ducimus aspernatur deserunt eligendi error?
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse deserunt repudiandae eum architecto assumenda, cupiditate eveniet laborum porro nesciunt quis voluptatibus dicta eaque quia quae, quod veniam quibusdam corrupti sequi.
+          </p>
+        </div>
+          <div class="col ">
+            <img src="iconos/Clientes.png" width=400px  href="" class="Inventario_1">
+          </div>
+      </div>
+    </section>
+  </div>
+  <!-- Documentos -->
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <div class="section_subtitle">
+        <h2>Fidelizacion de clientes</h2>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="card-doc" style="width: 10rem;">
+          <img src="iconos/Archivo.png" class="card-img-top" alt="IEEE380">
+          <div class="card-body">
+            <h5 class="card-title-d">Plantilla de formulacion de proyecto</h5>
+            <p class="card-text"><p></p>
+            <a href="#" class="btn btn-primary">Descargar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card-doc" style="width: 10rem;">
+          <img src="iconos/Archivo.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title-d">IEEE830</h5>
+            <p class="card-text"><p></p>
+            <a href="#" class="btn btn-primary">Descargar</a>
+          </div>
+        </div>
+    </div>
+    <div class="col-3">
+      <div class="card-doc" style="width: 10rem;">
+        <img src="iconos/Archivo.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title-d">Modelado estructurado</h5>
+          <p class="card-text"><p></p>
+          <a href="#" class="btn btn-primary">Descargar</a>
+        </div>
+      </div>
+  </div>
+
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+    <div class="col-3">
+        <div class="card-doc" style="width: 10rem;">
+          <img src="iconos/Archivo.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title-d">Diagramas</h5>
+            <p class="card-text"><p></p>
+            <a href="#" class="btn btn-primary">Descargar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card-doc" style="width: 10rem;">
+          <img src="iconos/Archivo.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title-d">Card title</h5>
+            <p class="card-text"><p></p>
+            <a href="#" class="btn btn-primary">Descargar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card-doc" style="width: 10rem;">
+          <img src="iconos/Archivo.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title-d">Card title</h5>
+            <p class="card-text"><p></p>
+            <a href="#" class="btn btn-primary">Descargar</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- GAES -->
+  <div class="perfiles">
+    <section id="Gaes 5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card-perfil">
+            <div class="img1">
+              <img src="img/fondo1.jpg" alt="">
+            </div>
+            <div class="img2">
+              <img src="img/img1.jpg" alt="">
+            </div>
+            <div class="main-text">
+              <h2>Carol Zamora</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nulla beatae praesentium quasi 
+                fuga optio velit ipsam ratione ullam, enim doloremque cum asperiores corrupti recusandae quibusdam
+                 eaque quaerat molestias placeat.</p>
+            </div>
+            <div class="socials">
+              <i class="fa fa-correo"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="fa fa-Github"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card-perfil">
+            <div class="img1">
+              <img src="img/fondo2.jpg" alt="">
+            </div>
+            <div class="img2">
+              <img src="" alt="">
+            </div>
+            <div class="main-text">
+              <h2>Johan contreras</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nulla beatae praesentium quasi 
+                fuga optio velit ipsam ratione ullam, enim doloremque cum asperiores corrupti recusandae quibusdam
+                 eaque quaerat molestias placeat.</p>
+              </div>
+              <div class="socials">
+                <i class="fa fa-correo"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="fa fa-Github"></i>
+              </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card-perfil">
+            <div class="img1">
+              <img src="img/fondo3.jpg" alt="">
+            </div>
+            <div class="img2">
+              <img src="" alt="">
+            </div>
+            <div class="main-text">
+              <h2>Erika Cuevas</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nulla beatae praesentium quasi 
+                fuga optio velit ipsam ratione ullam, enim doloremque cum asperiores corrupti recusandae quibusdam
+                 eaque quaerat molestias placeat.</p>
+              </div>
+              <div class="socials">
+                <i class="fa fa-correo"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="fa fa-Github"></i>
+              </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card-perfil">
+        <div class="img1">
+          <img src="img/fondo4.jpg" alt="">
+        </div>
+        <div class="img2">
+          <img src="" alt="">
+        </div>
+        <div class="main-text">
+          <h2>Andres Ruiz</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem nulla beatae praesentium quasi 
+            fuga optio velit ipsam ratione ullam, enim doloremque cum asperiores corrupti recusandae quibusdam
+             eaque quaerat molestias placeat.</p>
+          </div>
+          <div class="socials">
+            <i class="fa fa-correo"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="fa fa-Github"></i>
+          </div>
+  </div>
+    </div>
+      </div>
+    </div>
+    </section>
+  </div>
+
+  
+
+ 
+  
+     
+  
+  
+
+
+<!-- control k c -->
+<!-- footer -->
+<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2021 Company, Inc</p>
+  </footer>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+ 
+  </body>
+</html> 
